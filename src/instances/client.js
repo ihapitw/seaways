@@ -1,5 +1,5 @@
 export class SeawaysClient {
-  constructor(options) {
-    this._options = options
+  constructor(axiosClient) {
+    this.axiosClient = axiosClient
   }
 }
